@@ -1,6 +1,11 @@
 # AIsailors
 
-The Sailors strategic board game driven by AI.
+The Sailors strategic board game driven by AI. Inspired by the Squadro board game.
+
+Written entirely using the Elm functional programming language. The searching algorithm is based on an alpha/beta minimax search.
+See the src code.
+
+## Rules of the game
 
 You are directing a team of five racing sail boats against your opponent, the Computer team with the
 same number of boats.  To play a move, you select one sail boat to go forward. The speed of a
@@ -12,3 +17,4 @@ forces them back to their last departing dock. Likewise, you can hinder your opp
 P.S.: If four sail boats make it back, and that team was the first to play, the opponent may draw
 the game by one ultimate move to complete four sail boats back. Yes, a draw is possible at
 Sailors!
+
